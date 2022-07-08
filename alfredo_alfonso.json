@@ -1,0 +1,125 @@
+{
+    "turnos": [
+        {
+            "fecha": "08/07/2022",
+            "min_duracion_consulta": 10,
+            "horarios": [
+                {
+                    "inicio": "9:00",
+                    "fin": "12:00"
+                },
+                {
+                    "inicio": "17:00",
+                    "fin": "21:00"
+                }
+            ],
+            "turnos": [
+                {
+                    "id": 10001,
+                    "numero": 1,
+                    "horario": "9:00",
+                    "estado": "atendido",
+                    "paciente": {
+                        "nombre": "Nilo Ricardo Abrigato",
+                        "obra_social": "Red Seguros Médicos",
+                        "plan": "VIP Oro"                       
+                    }
+                },
+                {
+                    "id": 10002,
+                    "numero": 2,
+                    "horario": "9:10",
+                    "estado": "atendiendo",
+                    "paciente": {
+                        "nombre": "Ruth Stella Medina",
+                        "obra_social": "Pami",
+                        "plan": ""                       
+                    }
+                },
+                {
+                    "id": 10003,
+                    "numero": 3,
+                    "horario": "9:20",
+                    "estado": "asignado",
+                    "paciente": {
+                        "nombre": "Nilo Matías Abrigato",
+                        "obra_social": "Particular",
+                        "plan": ""                       
+                    }
+                }
+            ]
+        }
+    ],
+    "historias_clinicas": [
+        {
+            "paciente": {
+                "nombre": "Nilo Ricardo Abrigato",
+                "obra_social": "Red Seguros Médicos",
+                "plan": "VIP Oro",
+                "dni": "18376426",
+                "fecha_nacimiento": "13/09/1967",
+                "sexo": {
+                    "biologico": "masculino",
+                    "percepcion": "masculino"
+                },
+                "telefono": "3816813058",
+                "email": "niloabrigato@yahoo.com.ar",
+                "observaciones":"",
+                "consultas": [
+                    {
+                        "fecha": "08/07/2022",
+                        "motivo": "dolor zona inginal",
+                        "diagnóstico": "",
+                        "estudios_presentados": [
+                            {
+                                "estudio": "examen de orina",
+                                "observaciones": "valores normales"
+                            }
+                        ],
+                        "estudios_pedidos": [
+                            {
+                                "estudio": "ecografia inginal"
+                            }
+                        ],
+                        "medicacion_preatencion": [
+                            {
+                                "medicamento": "dilatren 6.25",
+                                "periocidad": "1 a la noche"
+                            }
+                        ],
+                        "medicacion_prescripta": [
+                            {
+                                "medicamento": "pantus",
+                                "periocidad": "1 a la noche"
+                            }
+                        ],
+                        "observaciones":""
+                    }
+                ]
+            }
+        }
+    ],
+    "ordenes_consulta": [
+        {
+            "fecha": "08/07/2022",
+            "obra_social":"Red Seguros Médicos",
+            "plan":"VIP Oro",
+            "nombre":"Nilo Ricardo Abrigato",
+            "plus": 600
+        },
+        {
+            "fecha": "08/07/2022",
+            "obra_social":"Pami",
+            "plan":"",
+            "nombre":"Ruth Stella Medina",
+            "plus": 600
+        },
+        {
+            "fecha": "08/07/2022",
+            "obra_social":"Particular",
+            "plan":"",
+            "nombre":"Nilo Matías Abrigato",
+            "plus": 2000
+        }
+    ]
+}

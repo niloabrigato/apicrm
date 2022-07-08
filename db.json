@@ -1,0 +1,54 @@
+{
+  "clientes": [
+    {
+      "nombre": "Nilo ACTUALIZADO",
+      "empresa": "DesarrolladoresWebComAr",
+      "email": "niloabrigato@yahoo.com.ar",
+      "telefono": "3816813058",
+      "notas": "Cliente recomendado por otro",
+      "id": 1
+    },
+    {
+      "nombre": "Ruth Medina",
+      "empresa": "no tiene",
+      "email": "ruthstellamedina@gmail.com",
+      "telefono": "",
+      "notas": "Es mi esposa",
+      "id": 2
+    },
+    {
+      "nombre": "Matías Abrigato",
+      "empresa": "buda",
+      "email": "nilomatias.123@gmail.com",
+      "telefono": "465465465",
+      "notas": "Hijo",
+      "id": 3
+    },
+    {
+      "nombre": "Nano Abrigato",
+      "empresa": "Nano Producciones",
+      "email": "nano_santo_07@hotmail.com",
+      "telefono": "798798789",
+      "notas": "",
+      "id": 4
+    },
+    {
+      "nombre": "Juan Lopez",
+      "empresa": "Juan Lopez & Cia",
+      "email": "juanlopez@correo.com",
+      "telefono": "6546465465",
+      "notas": "amigo",
+      "id": 5
+    }
+  ],
+  "proveedores": [
+    {
+      "nombre": "Carlos Cordoba",
+      "empresa": "Parfaitech",
+      "email": "info@carloscordoba.com.ar",
+      "telefono": "4654654654",
+      "notas": "Proveedor de internet",
+      "id": 1
+    }
+  ]
+}
